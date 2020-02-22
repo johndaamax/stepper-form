@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <title>Stepper Form Demo</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <div id="formContainer">
+        <h1>A simple stepper form</h1>
+        <form id="example-form">
+            <div class="label-content">
+                <div class="step-number">1</div>
+                <label for="username">Username</label>
+            </div>
+            <div class="input-content">
+                <input class="input" type="text" name="username" class="username" placeholder="Enter username">
+                <p class="error-message"></p>
+                <button class="continue-button" type="button">Continue</button>
+            </div>
+            <div class="label-content">
+                <div class="step-number">2</div>
+                <label for="password">Password</label>
+            </div>
+            <div class="input-content">
+                <input class="input" type="password" name="password" class="password" placeholder="Enter password">
+                <p class="error-message"></p>
+                <button class="continue-button" type="button">Continue</button>
+                <button class="back-button" type="button">Back</button>
+            </div>
+            <div class="label-content">
+                <div class="step-number">3</div>
+                <label for="telephone">Email</label>
+            </div>
+            <div class="input-content">
+                <input class="input" type="email" name="email" class="email" placeholder="Enter e-mail">
+                <p class="error-message"></p>
+                <button class="continue-button" type="button">Continue</button>
+                <button class="back-button" type="button">Back</button>
+            </div>
+            <div class="label-content">
+                <div class="step-number">4</div>
+                <label for="submit">Submit!</label>
+            </div>
+            <div class="input-content">
+                <input class="submit" type="submit" name="submit" value="submit">
+                <button class="back-button" type="button">Back</button>
+            </div>
+        </form>
+        <p id="submitted-success"></p>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
