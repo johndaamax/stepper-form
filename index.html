@@ -26,8 +26,10 @@
             <div class="input-content">
                 <input class="input" type="password" name="password" class="password" placeholder="Enter password">
                 <p class="error-message"></p>
-                <button class="continue-button" type="button">Continue</button>
-                <button class="back-button" type="button">Back</button>
+                <div class="controls-container">
+                    <button class="continue-button" type="button">Continue</button>
+                    <button class="back-button" type="button">Back</button>
+                </div>
             </div>
             <div class="label-content">
                 <div class="step-number">3</div>
@@ -36,16 +38,20 @@
             <div class="input-content">
                 <input class="input" type="email" name="email" class="email" placeholder="Enter e-mail">
                 <p class="error-message"></p>
-                <button class="continue-button" type="button">Continue</button>
-                <button class="back-button" type="button">Back</button>
+                <div class="controls-container">
+                    <button class="continue-button" type="button">Continue</button>
+                    <button class="back-button" type="button">Back</button>
+                </div>
             </div>
             <div class="label-content">
                 <div class="step-number">4</div>
                 <label for="submit">Submit!</label>
             </div>
             <div class="input-content">
-                <input class="submit" type="submit" name="submit" value="submit">
-                <button class="back-button" type="button">Back</button>
+                <div class="controls-container">
+                    <input class="submit" type="submit" name="submit" value="submit">
+                    <button class="back-button" type="button">Back</button>
+                </div>
             </div>
         </form>
         <p id="submitted-success"></p>

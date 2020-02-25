@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
     width: 30%;
     padding: 1rem;
+    min-width: 300px;
 }
 
 button:focus {
@@ -104,6 +105,11 @@ button:first-of-type {
 .back-button:hover:enabled {
     color: red;
     border: 1px solid red;
+}
+
+.controls-container {
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .step-number {
